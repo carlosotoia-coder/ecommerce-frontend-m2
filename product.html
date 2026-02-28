@@ -35,10 +35,10 @@
 <!-- MAIN -->
 <main class="container my-5">
 
-    <section class="row">
+    <section class="row align-items-center">
         <!-- IMAGEN -->
         <article class="col-12 col-md-6">
-            <img src="assets/img/producto1.jpg" class="img-fluid" alt="Producto">
+            <img src="assets/img/producto1.jpg" class="img-fluid" alt="Producto 1">
         </article>
 
         <!-- INFO -->
@@ -48,10 +48,14 @@
 
             <p>
                 Este es un producto de ejemplo para el proyecto del Módulo 2.
-                Aquí va una descripción clara y breve del producto.
+                Incluye descripción, precio y botón para agregar al carrito.
             </p>
 
-            <button class="btn btn-success add-to-cart">
+            <button 
+                class="btn btn-success add-to-cart"
+                data-id="1"
+                data-name="Producto 1"
+                data-price="10000">
                 Agregar al carrito
             </button>
         </article>
